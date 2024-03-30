@@ -1,0 +1,23 @@
+. id card validation - after scanning the id card of the club members u will rediercted to the respected id card holder 
+. adding member/new idcards - this will add a new id card and seperate profile will be created automatically(handle by the secretary portal).
+. chat/suggestion box - suggestions mail and faq for some queries
+. certificate maker - automatically make the certificates for the participants wh participate in the events
+. certificate validation - scan the certificate and show that this peson is verified and show the profile of the certificate holder
+. create a databse of attendes of events - attendance of the participants and their data will also added to the newsletter 
+. announcments and news - manage by the secretary portal (secretary will send a mail to all the newsletter emaials about the new events and popus a banner on the landing page )
+. newsletter - it will provide a mail to all the subscribers about the new events and banners
+. portals - . members 
+            . all team 
+            . admin/president 
+            . wise president 
+            . faculty 
+. birthday alert system - 3 days before for all person 
+. birthday notice/popup - 2 day before for all person 
+. quizz page - alerady created only have to insert in the website  
+. suggestion box - department wise mails and sugeestions 
+. rsvp - registrations for special events
+. badges/ ranking system - provide badges for the participants on their profile and ranking will be based on the hackathons 
+. leaderboards and hackathon winners - leaderboard will show on the landing page showing events winners(quiz, hackathins,game)
+. dymanc gallery sections - automatically update the photos of the events 
+. dynamic team and faculty section - it will upgrade from their respective portal(seperate web page for each )
+. contact section - number and emails of the secretary 
