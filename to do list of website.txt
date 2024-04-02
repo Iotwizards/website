@@ -20,4 +20,4 @@
 . leaderboards and hackathon winners - leaderboard will show on the landing page showing events winners(quiz, hackathins,game)
 . dymanc gallery sections - automatically update the photos of the events 
 . dynamic team and faculty section - it will upgrade from their respective portal(seperate web page for each )
-. contact section - number and emails of the secretary 
+. contact section - number and emails of the secretary     kahskjshdk
