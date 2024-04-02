@@ -11,10 +11,7 @@
     transition: all .2s linear;
 }
 
-*::selection {
-    background-color: #000;
-    color: #fff;
-}
+
 
 html, body {
     height: 100%;
@@ -22,7 +19,7 @@ html, body {
 }
 
 .main {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -281,14 +278,14 @@ section{
 
 
 
-.members .box-container{
+.main-members .box-container{
     border: 0px solid;
-    display: grid;
+    display: grid   ;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
 }
 
-.members .box-container .box{
+.main-members .box-container .box{
     border: 0px solid;
     padding: 3rem 2rem;
     background-color: #fff;
@@ -298,29 +295,69 @@ section{
     box-shadow: 0.5rem 1.5rem  rgba(0,0,0,.1);
 }
 
-.members .box-container .box:hover{
+.main-members .box-container .box:hover{
     box-shadow: 1px 1px 10px 4px black;
 
 }
 
-.members .box-container .box img {
+.main-members .box-container .box img {
     margin: 1rem 0;
     height: 15rem;
 }
 
-.members .box-container .box h3{
+.main-members .box-container .box h3{
     font-size: 1.5rem;
     line-height: 1.8;
     color: black;
 }
 
-.members .box-container .box p{
+.main-members .box-container .box p{
     font-size: 1rem;
     line-height: 1.8;
     color: black;
     padding-bottom: 1rem;
 }
 
+
+.member .box-container{
+    border: 0px solid;
+    display: grid   ;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+.member .box-container .box{
+    border: 0px solid;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    outline: .1rem solid rgba(0,0,0.1);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: 0.5rem 1.5rem  rgba(0,0,0,.1);
+}
+
+.member .box-container .box:hover{
+    box-shadow: 1px 1px 10px 4px black;
+
+}
+
+.member .box-container .box img {
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.member .box-container .box h3{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: black;
+}
+
+.member .box-container .box p{
+    font-size: 1rem;
+    line-height: 1.8;
+    color: black;
+    padding-bottom: 1rem;
+}
 section button {
     font-size: 1.5vw;
     padding: 1vw 2vw;
