@@ -264,9 +264,12 @@
       <h1 class="heading"><span>Events</span></h1>
       <div class="box-container">
         <div class="box">
-          <img src="img/event1.jpg" alt="Inauguration of IOT Club">
-          <h3>Inauguration of IOT Club</h3>
-          <p>This event is organized to inaugurate our IOT Club and make everyone know about IOT and IOT Club, which is the motive of making this club.</p>
+          <img src="img/genai.jpg" alt="Inauguration of IOT Club">
+          <h3>Generative AI: The Future of Creativity</h3>
+          <p>this event is organized to explore the Gen AI and develop your creativity learning. 
+            This event will be held on friday, 5 april at Miet Meerut
+            The timing and the venue are - Audi 4 10:00am to 12:00pm
+          </p>
         </div>
       </div>
     </section>
@@ -301,39 +304,8 @@
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- <script src="./index.js"></script> this is not working propertly -->
-  <script>
-document.addEventListener("DOMContentLoaded", function() {
-  var toggleButton = document.getElementById('toggleButton');
-  var memberDiv = document.getElementById('member');
-  var imageDiv = document.querySelector('.image');
-  var mainMembersDiv = document.querySelector('.main-members');
-
-  if (toggleButton && memberDiv) {
-    toggleButton.addEventListener('click', function() {
-      toggleContent(memberDiv, imageDiv, toggleButton, mainMembersDiv);
-    });
-  }
-});
-
-function toggleContent(memberDiv, imageDiv, toggleButton, mainMembersDiv) {
-  if (memberDiv && toggleButton && mainMembersDiv) {
-    var isVisible = memberDiv.classList.toggle('visible');
-    memberDiv.classList.toggle('hidden');
-    imageDiv.classList.toggle('hidden');
-    console.log(isVisible)
-    // Change button text based on visibility of element
-    toggleButton.textContent = isVisible ? 'Less' : 'More';
-
-    // Scroll to the main-members div if it's being shown
-    if (isVisible) {
-      console.log("hello")
-    } else {
-      // Scroll to the top of the page if hiding the main member div
-      mainMembersDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
-}
-
-  </script>
+  
 </body>
+
+<script src="index.js"></script>
 </html>
